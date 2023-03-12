@@ -1,0 +1,49 @@
+body {font: bold 60px/1.4 Arial, "Inter"; background-color:#f5f5ec; color:#090909; margin:20px 0 0 0; padding:0;}
+
+h1 {font-size:100px; padding:0 0 40px 0; margin:0; letter-spacing: 0.05em;}
+
+a {color:#4177d6; text-decoration: none; }
+a:hover {color:#090909;}
+
+ul {padding:0; margin:0;}
+li {font: 700 40px/1.4 Arial, "Inter"; list-style-type:none; padding:0; margin:0;}
+
+.container {width:90%; margin:0 auto; min-width: 300px;}
+
+/* MAIN */
+
+nav ul li {border-top:3px solid #e4e6e6; padding:10px 0 0 0;}
+nav ul li a {font:bold 100% Arial, "Inter"; display: block; padding:0px 0 10px 0;}
+nav ul li div {text-align: center;}
+
+nav:hover ul li a {background:url(/ico-plus.svg) no-repeat right top; color:#090909;}
+nav:hover ul li a:hover {background:url(/ico-plus-rotate.svg) no-repeat right top;}
+nav:hover ul li a:active {background:url(/ico-plus-rotate-active.svg) no-repeat right top !important; color:#4177d6; transition: 0.4s;}
+
+nav:hover ul li a:active img {filter: opacity(30%); transition: 1s;}
+
+nav:hover ul li a:hover img {transform: scale(1); transition: 1s;}
+
+nav ul li a div {display:none;}
+nav:hover ul li a:hover div {display: block;}
+
+nav:hover ul li.activenow a div {display: block;}
+
+/* ################# Responsive ################## */
+
+/* Responsive Tablet */
+
+@media only screen and (max-width: 1920px) {
+  h1 {font-size:100%;}
+  nav ul li a {font-size:100%;}
+}
+
+@media only screen and (max-width: 820px) {
+  h1 {font-size:75%;}
+  nav ul li a {font-size:75%;}
+ }
+
+@media only screen and (max-width: 320px) {
+  h1 {font-size:50%;}
+  nav ul li a {font-size:50%;}
+}
