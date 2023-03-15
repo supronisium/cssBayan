@@ -46,4 +46,6 @@ nav:hover ul li.activenow a div {display: block;}
 @media only screen and (max-width: 320px) {
   h1 {font-size:50%;}
   nav ul li a {font-size:50%;}
+  nav ul li img {width:280px;}
+
 }
