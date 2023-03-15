@@ -16,9 +16,9 @@ nav ul li {border-top:3px solid #e4e6e6; padding:10px 0 0 0;}
 nav ul li a {font:bold 100% Arial, "Inter"; display: block; padding:0px 0 10px 0;}
 nav ul li div {text-align: center;}
 
-nav:hover ul li a {background:url(/ico-plus.svg) no-repeat right top; color:#090909;}
-nav:hover ul li a:hover {background:url(/ico-plus-rotate.svg) no-repeat right top;}
-nav:hover ul li a:active {background:url(/ico-plus-rotate-active.svg) no-repeat right top !important; color:#4177d6; transition: 0.4s;}
+nav:hover ul li a {background:url(ico-plus.svg) no-repeat right top; color:#090909;}
+nav:hover ul li a:hover {background:url(ico-plus-rotate.svg) no-repeat right top;}
+nav:hover ul li a:active {background:url(ico-plus-rotate-active.svg) no-repeat right top !important; color:#4177d6; transition: 0.4s;}
 
 nav:hover ul li a:active img {filter: opacity(30%); transition: 1s;}
 
